@@ -1,0 +1,273 @@
+nav {
+    background-color: rgb(220, 218, 218);
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.drop_down {
+    margin-left: -150px;
+}
+#country,#currency,#lang {
+    border: none;
+    background:none;
+    padding: 9px;
+}
+#country,#currency,#lang,.service span,.social_media span:hover {
+    cursor: pointer;
+}
+.service span {
+    padding: 7px;
+}
+.social_media span {
+    color: gray;
+    padding: 7px;
+}
+.social_media span:hover {
+    filter: brightness(0.7);
+}
+header {
+    display: flex;
+    justify-content: space-evenly;
+    height: 90px;
+}
+.brand-title {
+    font-size: 26px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 32px;
+}
+.brand-menu {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 37px;
+}
+.brand-menu span {
+    margin-right: 20px;
+    cursor: pointer;
+}
+.brand-icons {
+    font-size: 16px;
+    margin-top: 37px;
+}
+.brand-icons span {
+   margin-right: 20px;
+   cursor: pointer;
+}
+.brand-offer {
+    background-color: black;
+    color:white;
+    padding: 19px;
+    text-align: center;
+    height: 55px;
+}
+.brand-nav {
+    margin-top: 16px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+}
+.women {
+    background-image: url("./imgs/women_fashion1.jpg");
+    height: 600px;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    opacity: 1;
+    cursor: pointer;
+}
+.women:hover {
+    filter: brightness(0.9);
+}
+.men {
+    background-image: url("./imgs/men_fashion.jpg");
+    height: 600px;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    opacity: 1;
+    cursor: pointer;
+}
+.men:hover {
+    filter: brightness(0.9);
+}
+.kids {
+    background-image: url("./imgs/kid_fashion.jpg");
+    height: 600px;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    opacity: 1;
+    cursor: pointer;
+}
+.kids:hover {
+    filter: brightness(0.9);
+}
+.banner-title {
+    font-size: 40px;
+    font-weight: bold;
+    color:white;
+    text-shadow: 2px 2px 2px black;
+}
+.men button,.women button,.kids button {
+    width: 200px;
+    height: 45px;
+    background-color: white;
+    border: none;
+}
+.c1, .c2 ,.c3,.c4 {
+    display: flex;
+    padding: 20px;
+}
+.main {
+    display: flex;
+    margin-top: 180px;
+    justify-content: space-evenly;
+    margin-left: 200px; 
+    margin-right: 200px;  
+}
+.middle {
+    text-align: center;
+    height: 200px;
+    align-items: center;
+    margin-top: 80px;
+}
+.new_collection {
+    font-weight: bold;
+    opacity: 0.6;
+}
+.women:hover span{
+    margin-left: 5px;
+    transition: 0.5s;
+}
+.men:hover span{
+    margin-left: 5px;
+    transition: 0.5s;
+}
+.kids:hover span{
+    margin-left: 5px;
+    transition: 0.5s;
+}
+.category_1 {
+    margin: 0px 200px 5px 200px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+}
+.bag_collection {
+    background-image: url(./imgs/bag-collection.jpg);
+    height: 450px;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    opacity: 1;
+    cursor: pointer;
+    font-weight: bold;
+}
+.printed_shirt {
+    background-image: url(./imgs/printed_shirt.jpg);
+    height: 450px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-inline-start: 40px;
+    opacity: 1;
+    cursor: pointer;
+    font-weight: bold;
+}
+.bag,.p_shirt,.w_dress,.s_shirts {
+    font-weight: 750;
+    font-size: 35px;
+    padding: 20px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.p_shirt,.w_dress {
+    margin-left: 45px;
+}
+.ctgry_1,.ctgry_2,.ctgry_3,.ctgry_4 {
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.ctgry_2,.ctgry_3 {
+    margin-left: 65px;
+}
+.bag_collection:hover span {
+    padding-left: 5px;
+    transition: 0.5s;
+    color: cyan;
+}
+.printed_shirt:hover span {
+    padding-left: 5px;
+    transition: 0.5s;
+    color: cyan;
+}
+.category_2 {
+    margin: 30px 200px 100px 200px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+}
+.women_dress {
+    background-image: url(./imgs/basic-women-dress.jpg);
+    height: 450px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    opacity: 1;
+    cursor: pointer;
+    font-weight: bold;
+}
+.sweatshirts {
+    background-image: url(./imgs/sweatshirts.jpg);
+    height: 450px;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-inline-start: 40px;
+    opacity: 1;
+    cursor: pointer;
+    font-weight: bold;
+}
+.women_dress:hover span {
+    padding-left: 5px;
+    transition: 0.5s;
+    color: cyan;
+}
+.sweatshirts:hover span {
+    padding-left: 5px;
+    transition: 0.5s;
+    color: cyan;
+}
+.top {
+    text-align: center;
+}
+.wmk span {
+   margin: 25px;
+   cursor: pointer;
+   font-size: large;
+}
+.wmk {
+    margin-top: 26px;
+    margin-bottom: 30px;
+}
+.wmk span:hover {
+    text-decoration:underline;
+    color: orangered;
+}
+body {
+    flex-wrap: wrap;
+}
